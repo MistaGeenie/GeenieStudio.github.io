@@ -26,17 +26,16 @@ p {
 }   
     
 header {
-    background: linear-gradient(to right, #ffc6a0, #db67cc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
     font-family: 'Impact', sans-serif;
     font-size: 2em;
-    background-image: url("images/icon.png");
-    background-repeat: no-repeat;
-    background-position: 65% 60%;
-    background-size: 10%;
 }
+
 
 header:hover {
     transform: scale(1.10); 
@@ -222,5 +221,19 @@ a:focus, button:focus {
 
     #homehero {
         height: 200px;
+    }
+
+    header {
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-text {
+        font-size: 1em;
     }
 }

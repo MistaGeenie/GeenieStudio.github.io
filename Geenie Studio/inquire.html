@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Inquiries | Geenie Studio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="geenie.css">
+    </head>
+    <body>
+        <header><h1><a href="index.html"> Geenie Studio </a></h1></header>
+        <nav>
+            <ul>
+                <li><a href="art.html">Art</a></li>
+                <li><a href="animation.html">Animation</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="inquire.html">Inquiries</a></li>
+            </ul>
+        </nav>
+        <div id="wrapper">
+            <main>
+                <h2 class="center-text">Contact Us</h2>
+                <p class="center-text">Please reach out with questions or commission requests!</p><br>
+    
+                <h3 class="center-text">Commission Rates</h3>
+                <table class="center-table" border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Rate</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Custom Artwork</td>
+                    <td>$50 per hour</td>
+                </tr>
+                <tr>
+                    <td>Animation</td>
+                    <td>$100 per hour</td>
+                </tr>
+                <tr>
+                    <td>Graphic Design</td>
+                    <td>$75 per hour</td>
+                </tr>
+                <tr>
+                    <td>Consultation</td>
+                    <td>$30 per hour</td>
+                </tr>
+                </tbody>
+                </table><br>
+
+                <form action="submit_form.php" method="post" class="inquiry-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@address.com" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Hello" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </main>
+            <footer>Copyright &copy; 2025 Geenie Studio <br><a href="mailto:tmitch27@stu.jjc.edu">tmitch27@stu.jjc.edu </a></footer>
+        </div>
+    </body>
+</html>
